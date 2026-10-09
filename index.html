@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="V Nisanth — cinematic AI Agent Development portfolio.">
+  <title>V NISANTH — THE JOURNEY CONTINUES</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="intro" class="intro">
+    <div class="intro-noise"></div>
+    <div class="intro-line"></div>
+    <p class="intro-kicker">A PERSONAL PORTFOLIO / 2026</p>
+    <h1 id="konnichiwa" aria-label="Konnichiwa"></h1>
+    <p class="intro-small">PRESS ENTER / SCROLL TO BEGIN</p>
+  </div>
+
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+  <div class="page-noise"></div>
+  <div class="red-light"></div>
+
+  <header class="nav">
+    <a class="brand magnetic" href="#home" data-cursor="home">VN<span>.</span></a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#home" data-label="01">HOME</a>
+      <a href="#about" data-label="01">ABOUT</a>
+      <a href="#skills" data-label="02">SKILLS</a>
+      <a href="#projects" data-label="03">PROJECTS</a>
+      <a href="#experience" data-label="04">EXPERIENCE</a>
+      <a href="#team" data-label="05">TEAM</a>
+      <a href="#dreams" data-label="06">DREAMS</a>
+    </nav>
+    <div class="nav-status"><i></i> AVAILABLE TO GROW</div>
+  </header>
+
+  <main>
+    <!-- 01 / HOME + ABOUT -->
+    <section id="home" class="chapter hero chapter-dark" data-chapter="01">
+      <div class="chapter-bg grid-bg"></div>
+      <div class="hero-orbit orbit-a"></div>
+      <div class="hero-orbit orbit-b"></div>
+
+      <div class="hero-copy">
+        <p class="eyebrow reveal">01 / WHO AM I?</p>
+        <h5 class="hero-title reveal">
+          <span>V NISANTH</span>
+        </h5>
+        <p class="hero-role reveal">ASPIRING <b>AI AGENT DEVELOPER</b></p>
+        <p class="hero-description reveal">
+          B.E. Computer Science student building toward AI Agent Development,
+          data-driven technologies, automation, and useful intelligent systems.
+        </p>
+        <div class="hero-actions reveal">
+          <a class="btn btn-primary magnetic" href="#projects">ENTER THE JOURNEY <span>↘</span></a>
+          <a class="btn btn-ghost magnetic" href="#about">WHO AM I? <span>↓</span></a>
+        </div>
+      </div>
+
+      <div class="hero-photo-frame reveal">
+
+        <div class="hero-photo-placeholder" id="heroPhoto">
+          <span><img src="assets/images/I am.jpg" alt=""></span>
+
+        </div>
+
+        <div class="photo-corner c1"></div>
+        <div class="photo-corner c2"></div>
+        <div class="photo-corner c3"></div>
+        <div class="photo-corner c4"></div>
+      </div>
+
+
+      <div class="chapter-marker">01 — 06</div>
+    </section>
+
+    <section id="about" class="chapter about chapter-paper" data-chapter="01">
+      <div class="paper-grain"></div>
+      <div class="about-number">01</div>
+      <div class="about-copy">
+        <p class="eyebrow dark-text reveal">WHO AM I?</p>
+        <h2 class="editorial-title reveal">HI!....<br><em>THIS IS</em> <br>V NISANTH.</h2>
+        <p class="lead reveal">
+          I am an aspiring B.E. Computer Science final-year student looking to build
+          a career in AI Agent Development and data-driven technologies.
+        </p>
+        <p class="body-copy reveal">
+          Not only because of the hype, but for a reason. I am skilled in Python,
+          FastAPI, RAG, LLM, Agents, n8n automations, Pandas, NumPy,
+          Exploratory Data Analysis (EDA), Data Visualization, Machine Learning,
+          Streamlit, MySQL, HTML, and CSS.
+        </p>
+        <p class="body-copy reveal">
+          I am passionate about solving problems and continuously learning emerging technologies.
+        </p>
+      </div>
+      <div class="about-stamp reveal">
+        <span>BUILD</span><span>LEARN</span><span>IMPROVE</span>
+      </div>
+      <div class="about-side">CURIOUS / TECHNICAL / CREATIVE / RESPONSIBLE</div>
+    </section>
+
+    <!-- 02 / SKILLS -->
+    <section id="skills" class="chapter skills chapter-redblack" data-chapter="02">
+      <div class="scanline"></div>
+      <div class="chapter-heading">
+        <p class="eyebrow reveal">02 / SKILL AURA</p>
+        <h2 class="section-title reveal">SKILLS</h2>
+        <p class="section-subtitle reveal">TOOLS I USE TO TURN QUESTIONS INTO SYSTEMS.</p>
+      </div>
+
+      <div class="skills-stage">
+        <div class="skills-character-wrap reveal">
+          <img src="assets/images/skills-character.png"
+            alt="Anime character used as the visual centerpiece of the skills chapter">
+          <div class="character-glow"></div>
+
+        </div>
+        <div class="skill-lines" aria-hidden="true"></div>
+        <div class="skill-nodes" id="skillNodes"></div>
+      </div>
+      <div class="skill-detail" id="skillDetail">
+        <span>SELECT A NODE</span>
+        <strong>HOVER / TAP A SKILL</strong>
+      </div>
+    </section>
+
+    <!-- 03 / PROJECTS -->
+    <section id="projects" class="chapter projects chapter-dark" data-chapter="03">
+      <div class="chapter-heading project-heading">
+        <p class="eyebrow reveal">03 / MISSIONS</p>
+        <h2 class="section-title reveal">WHAT I BUILD</h2>
+        <p class="section-subtitle reveal">PROJECTS ARE THE RECEIPTS OF CURIOSITY.</p>
+      </div>
+
+      <div class="project-stage">
+        <div class="projects-character reveal">
+          <img src="assets/images/projects-character.png" alt="Anime character visual for the projects chapter">
+        </div>
+        <div class="project-list" id="projectList"></div>
+      </div>
+
+      <div class="project-inspector" id="projectInspector" aria-live="polite">
+        <span class="inspector-index">PROJECT 00</span>
+        <h3>SELECT A MISSION</h3>
+        <p>Hover a project to inspect its technologies and purpose.</p>
+        <div class="inspector-tags"></div>
+        <div class="inspector-actions"></div>
+      </div>
+    </section>
+
+    <!-- 04 / EXPERIENCE -->
+    <section id="experience" class="chapter experience chapter-white" data-chapter="04">
+      <div class="experience-rocks"></div>
+      <div class="chain chain-left"></div>
+      <div class="chain chain-right"></div>
+      <div class="experience-art reveal">
+        <img src="assets/images/experience-character.png" alt="Anime character visual for the experience chapter">
+      </div>
+      <div class="experience-copy">
+        <p class="eyebrow dark-text reveal">04 / EVOLUTION</p>
+        <h2 class="experience-title reveal">EXPERIENCE</h2>
+        <div class="experience-card reveal">
+          <span class="card-index">04.01</span>
+          <p class="card-label">AI / ML INTERN</p>
+          <h3>POSTULATE INFOTECH</h3>
+          <p class="date">JUNE 2026 — JULY 2026</p>
+          <p>
+            A chapter of practical learning and building in AI/ML.
+            The environment moves; the learner keeps moving.
+          </p>
+        </div>
+        <div class="quote-placeholder reveal">
+          <span>HIG AI AUTOMATIONS</span>
+          <p>"Evolving"</p>
+        </div>
+      </div>
+      <div class="locked-note">CHARACTER LOCKED / WORLD IN MOTION</div>
+    </section>
+
+    <!-- 05 / TEAM -->
+    <section id="team" class="chapter team chapter-dark" data-chapter="05">
+      <div class="team-backdrop"></div>
+      <div class="team-image reveal">
+        <img src="assets/images/team-character.png" alt="Anime-inspired corporate team visual">
+      </div>
+      <div class="team-overlay"></div>
+      <div class="team-copy">
+        <p class="eyebrow reveal">05 / GROW WITH THE TEAM</p>
+        <h2 class="section-title reveal">TEAM<em> & GRATITUDE</em></h2>
+        <p class="team-message reveal">
+          I would be grateful to the team that gives me an opportunity to learn,
+          grow, and contribute.
+        </p>
+        <p class="team-message reveal">
+          I value the people and teams that create opportunities to learn and grow.
+          If given that opportunity, I will bring commitment, loyalty, continuous learning,
+          and a genuine willingness to contribute toward the company's goals.
+        </p>
+        <p class="team-message reveal">
+          I believe growth should be mutual — as I grow with the team,
+          I aim to create meaningful value for the organization.
+        </p>
+        <p class="team-thanks reveal">Thank you for taking the time to explore my journey.</p>
+      </div>
+      <div class="team-words" aria-hidden="true">
+        <span>GROW</span><span>COMMITMENT</span><span>LOYALTY</span>
+        <span>LEARNING</span><span>CONTRIBUTE</span>
+      </div>
+    </section>
+
+    <!-- 06 / DREAMS -->
+    <section id="dreams" class="chapter dreams chapter-dark" data-chapter="06">
+      <div class="dream-sky"></div>
+      <div class="dream-red-light"></div>
+      <div class="dream-car reveal">
+        <img src="assets/images/dreams-nissan-patrol.png" alt="Nissan Patrol dream visual">
+      </div>
+      <div class="dream-copy">
+        <p class="eyebrow reveal">06 / THE FINAL CHAPTER</p>
+        <h2 class="dream-title reveal">THE<br><em>DREAMS</em><br>OF ME</h2>
+        <p class="dream-line reveal">THE BOY WITH DREAMS.</p>
+        <p class="dream-text reveal">
+          I want to keep my commitments, remain loyal to the people who support me,
+          and continue moving forward even when things become difficult.
+        </p>
+      </div>
+
+      <div class="dream-cards">
+        <article class="dream-card reveal"><b>MY FAMILY</b><span>My strength. My reason. My responsibility.</span>
+        </article>
+        <article class="dream-card reveal"><b>FAITH</b><span>Keep faith. Keep moving. Keep learning. Keep
+            building.</span></article>
+        <article class="dream-card reveal"><b>GROW</b><span>Keep learning. Keep building. Become better than
+            yesterday.</span></article>
+        <article class="dream-card reveal"><b>SERVE SOCIETY</b><span>Use skills and knowledge to create real impact and
+            help people.</span></article>
+        <article class="dream-card reveal"><b>AI & TECHNOLOGY</b><span>Build intelligent systems. Solve real problems.
+            Make technology useful.</span></article>
+      </div>
+
+      <div class="dream-final reveal">
+        <p>“DREAMS DON'T WORK UNLESS YOU DO.”</p>
+        <span>THE JOURNEY CONTINUES.</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>V NISANTH</span>
+    <span>B.E. COMPUTER SCIENCE</span>
+    <span>ASPIRING AI AGENT DEVELOPER</span>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
